@@ -13,7 +13,7 @@ from sympy import Eq,solve_linear_system,Matrix
 import sympy as sp
 
 
-a = Analysis(['splineF.py'],
+a = Analysis(['splineCUBF.py'],
              pathex=['C:\\Users\\Usuario\\Desktop\\Untitled Folder'],
              binaries=[],
              datas=[],
@@ -31,7 +31,7 @@ exe = EXE(pyz,
           a.scripts,
           [],
           exclude_binaries=True,
-          name='splineF',
+          name='splineCUBF',
           debug=False,
           bootloader_ignore_signals=False,
           strip=False,
@@ -44,7 +44,7 @@ coll = COLLECT(exe,
                strip=False,
                upx=True,
                upx_exclude=[],
-               name='splineF')
+               name='splineCUBF')
 
 try:
     import pyInstaller
