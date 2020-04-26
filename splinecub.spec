@@ -1,5 +1,7 @@
 # -*- PyInstaller input file -*-
 # -*- mode: python           -*-
+import sys
+sys.setrecursionlimit(5000)
 
 try:
     import pyInstaller
