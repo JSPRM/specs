@@ -13,8 +13,8 @@ from sympy import Eq,solve_linear_system,Matrix
 import sympy as sp
 
 
-a = Analysis(['splineCUBF.py'],
-             pathex=['C:\\Users\\Usuario\\Desktop\\Untitled Folder\\a'],
+a = Analysis(['interpolacionyspline.py'],
+             pathex=['C:\\Users\\Usuario\\Desktop\\Untitled Folder\\a'], #MODIFICAR POR LA DIRECCION DEL .PY
              binaries=[],
              datas=[],
              hiddenimports=[],
@@ -33,7 +33,7 @@ exe = EXE(pyz,
           a.zipfiles,
           a.datas,
           [],
-          name='splineCUBF',
+          name='interpolacionyspline',
           debug=False,
           bootloader_ignore_signals=False,
           strip=False,
